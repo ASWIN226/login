@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    overflow: hidden;
+    
+}
+
+.sub {
+    height: 600px;
+    width: 90%; /* Makes it responsive */
+    max-width: 400px; /* Keeps the original width for larger screens */
+    background-color: white;
+   
+    border-radius: 20px;
+    padding: 30px;
+   
+
+ 
+    
+}
+  
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+input:focus{
+    
+    outline: none;
+}
+input::placeholder{
+    font-weight: bold;
+    text-indent: 2px;
+}
+
+.but{
+    height: 40px;
+    width: 290px;
+    position: relative;
+    left: 20px;
+    top: 40px;
+    border: none;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, #56CCF2, #2F80ED, #BB6BD9);
+
+   
+}
+
+.but:hover{
+    opacity: 0.8;
+}
