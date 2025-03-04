@@ -14,7 +14,7 @@ export default function Login() {
 
                         <label htmlFor=""><i class="fa-solid fa-user"></i></label> <br /> <br />
                         <input type="text" style={{borderTop:"0px",borderLeft:"0px",borderRight:"0px",
-                        width:"320px",
+                        width:"270px",
                         borderBottom:"3px solid grey",
                         opacity:"0.8",
                         fontWeight:"bold"
@@ -22,13 +22,13 @@ export default function Login() {
 
                          <label htmlFor=""><i class="fa-solid fa-lock"></i></label> <br />  <br />
                         <input type="text" style={{borderTop:"0px",borderLeft:"0px",borderRight:"0px",
-                        width:"320px",
+                        width:"270px",
                         borderBottom:"3px solid grey",
                         opacity:"0.8",
                         fontWeight:"bold"
                         }}placeholder="enter your password"/>
 
-                    <p style={{position:"relative",top:"30px",left:"120px",fontSize:"14px",fontWeight:"bold"}}><Link to={"/register"} style={{textDecoration:"none",color:"black"}}>don't have an account? Register</Link></p>
+                    <p style={{position:"relative",top:"30px",left:"60px",fontSize:"14px",fontWeight:"bold"}}><Link to={"/register"} style={{textDecoration:"none",color:"black"}}>don't have an account? Register</Link></p>
 
                     <input type="submit" value={"Login"} className="but" style={{fontWeight:"bold"}}/>
 
